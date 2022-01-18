@@ -1,0 +1,25 @@
+body{
+    background: url("download.jfif");
+    background-size:cover;
+}
+.heading{
+    font-size:20px;
+    margin: 0px;
+    width: 100%;
+}
+.info{
+    color: black;
+    font-size: 10px;
+    font-family: 'Recursive', sans-serif;
+}
+canvas{
+    border-radius:20px;
+    border-style: solid;
+    animation-name: m;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes m{
+    from{box-shadow: 5px 5px 15px white;}
+    to{box-shadow: 5px 5px 15px grey;}
+}
